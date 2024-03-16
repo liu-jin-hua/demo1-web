@@ -19,7 +19,7 @@ public class UserHello extends HttpServlet {
         String info = "YES";
         ServletConfig servletConfig = this.getServletConfig();
         if("liujinhua".equals(name)){
-            info = "<h1>No</h1>";
+            info = "<h1>No,hello world</h1>";
         }
         PrintWriter writer = resp.getWriter();
         writer.write(info);
