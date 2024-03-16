@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="system_schedule:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/system_schedule_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="system_schedule/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="system_schedule" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
